@@ -19,7 +19,7 @@ const Pedido = (sequelize, DataTypes) => {
                 model: "Usuario", 
                 key: "id_usuario"
                 }
-            },
+            }
         },{
             tableName: "pedido",
             timestamps: false
